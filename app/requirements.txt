@@ -1,0 +1,16 @@
+# Pure-python / non-torch dependencies. torch-adjacent packages are installed
+# separately with --no-deps in the Dockerfile so the base image's ROCm torch
+# is never replaced by a CUDA build.
+pypdf
+cryptography
+tokenizers
+safetensors
+huggingface_hub
+regex
+pyyaml
+requests
+tqdm
+packaging
+filelock
+numpy
+psutil
